@@ -19,7 +19,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd website  # ou le dossier où se trouve votre projet Docusaurus
           npm install
 
       - name: Build Docusaurus
