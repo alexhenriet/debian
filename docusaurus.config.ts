@@ -3,21 +3,22 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Debian',
-  tagline: 'All your bases are belong to us !',
+  title: 'Debian Essentials',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://alex.henriet.eu/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/debian',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'alexhenriet', // Usually your GitHub org/user name.
   projectName: 'debian', // Usually your repo name.
-
+  deploymentBranch: 'master',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -138,11 +139,12 @@ const config: Config = {
         },
 		*/
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Debian Essentials.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+	  additionalLanguages: ['csharp', 'powershell']
     },
   } satisfies Preset.ThemeConfig,
 };
