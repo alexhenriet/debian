@@ -62,3 +62,13 @@ apt install apticron
 netselect-apt -c de -t 5 -a amd64 -n bookworm
 ```
 **ICMP** must be allowed in the firewall.
+
+## Sample APT sources.list 
+
+```bash
+# cat /etc/apt/sources.list
+deb https://debian.netcologne.de/debian/ bookworm main contrib non-free non-free-firmware
+deb https://debian.netcologne.de/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb https://debian.netcologne.de/debian/ bookworm-proposed-updates main contrib non-free non-free-firmware
+deb https://security.debian.org/debian-security bookworm-security main contrib non-free-firmware
+```

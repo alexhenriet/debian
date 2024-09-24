@@ -14,6 +14,7 @@ pagination_prev: null
 - [PDF manipulation](./pdf.md)
 - [Packages management](./packages.md)
 - [Services management](./services.md)
+- [Wifi management](./wifi.md)
 
 Todo: ntp, ssh, openvpn, xorg, iptables, grub, cups, network, images and video manipulation,
 kdeconnect, clamav, ...
