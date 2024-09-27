@@ -15,6 +15,7 @@ pagination_prev: null
 - [Packages management](./packages.md)
 - [Services management](./services.md)
 - [Wifi management](./wifi.md)
+- [Bootable USB](./usb.md)
 
-Todo: ntp, ssh, openvpn, xorg, iptables, grub, cups, network, images and video manipulation,
+Todo: ntp, ssh, openvpn, xorg, xfce4, iptables, grub, cups, network, images and video manipulation,
 kdeconnect, clamav, ...
